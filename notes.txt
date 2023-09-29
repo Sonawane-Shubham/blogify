@@ -1,0 +1,19 @@
+make a folder in views 
+     partials:is like chote chote components
+        >>  <%- include('./partials/head')%> this is the way to include the partial into your ejs file 
+
+
+-npm install nodemon -D      -d means devdependancies
+devedepadanceie wo dependacises hoti hai jo hame sirf develpment main jaroori hoti hai jab hum production main jayenge hane waha uski jarunrat nahi hai. isse kya hota hai na tumhare module ka size kam  ho jata hai.
+-and when we deploy it it will not install the devdependancies this the good things
+-make a script to run the project through the devdepenceeis
+>>script
+    "dev":"nodemon index.js"
+    npm run dev    then  it will start the project
+    "start" :"node index.js"  which will  run  in productio because waha hame hamare server ko restrat nahi krna hai.
+
+
+
+
+
+
